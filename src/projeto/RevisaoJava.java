@@ -1,7 +1,7 @@
 package projeto;
 
 /*
-   autor: Jonas Dhein
+   autor: Michael Junges
 */
 
 public class RevisaoJava {
