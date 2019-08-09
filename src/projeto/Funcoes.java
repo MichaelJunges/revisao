@@ -1,7 +1,9 @@
 package projeto;
 
+import java.util.Random;
+
 /*
-autor: Jonas Dhein
+autor: Michael Junges
 */
 
 public class Funcoes {
@@ -16,7 +18,6 @@ public class Funcoes {
     */
     public static int somarNumeros(int valor1, int valor2){
         int resultado = valor1 + valor2;
-          
         return resultado;
     }
     
@@ -61,8 +62,9 @@ public class Funcoes {
     public static String sortearNumeros(int quantidade, int maximo){
         String resultado = "";
         int numero = 0;
+        Random aleatorio = new Random();
         for(int i = 0; i < quantidade; i++){
-            numero = (int) (Math.random() * maximo) + 1;
+            numero = aleatorio.nextInt(maximo)+1;
             resultado += numero + ",";
         }
         
@@ -71,5 +73,5 @@ public class Funcoes {
         return resultado;
     }
    
-    
+   
 }
