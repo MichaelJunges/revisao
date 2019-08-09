@@ -9,6 +9,35 @@ public class RevisaoJava {
     //método de inicialização da classe
     public static void main(String[] args) {
         
+        Pessoa pessoa1 = new Pessoa();
+        Pessoa pessoa2 = new Pessoa();
+        
+        pessoa1.setNome("Michael");
+        pessoa1.setValorconta(500.00);
+        
+        /*pessoa1.setCodigo(1);
+        pessoa1.setNome("Michael");
+        pessoa1.setCidade("Capitão");
+        pessoa1.setTelefone("(51)99599-9999");
+
+        System.out.println(pessoa1); 
+
+        pessoa2.setCodigo(2);
+        pessoa2.setNome("Vinícius");
+        pessoa2.setCidade("Lajeado");
+        pessoa2.setTelefone("(51)99999-9999");
+
+        System.out.println(pessoa2);
+        */
+        
+        /*
+        System.out.println(Funcoes.sortearNumeros(6, 60));
+        
+        String[] nomes = {"Juca","Bala","Pedro"};     
+        for(String var : nomes){
+            System.out.println(var);
+        }
+        
         System.out.println("Olá Mundo");
         int resultado = Funcoes.somarNumeros(1, 2);
         System.out.println("Resultado = " + resultado);
@@ -66,6 +95,7 @@ public class RevisaoJava {
     
     public static void imprimirMensagem(String par1){
         System.out.println();
+    }*/
     }
     
 }
